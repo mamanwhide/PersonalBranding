@@ -9,7 +9,7 @@ body {
 
 body::before {
   content: "";
-  position: absolute;
+  position: fixed;
   background: #040404 url("../img/Desain\ tanpa\ judul.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
@@ -95,7 +95,8 @@ h6 {
 }
 
 #header .social-links {
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-right: -40px;
   display: flex;
 }
 
@@ -107,7 +108,7 @@ h6 {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
   line-height: 1;
-  margin-right: 8px;
+  margin-right: 20px;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -190,7 +191,7 @@ h6 {
 */
 .navbar {
   padding: 0;
-  margin-top: 35px;
+  margin-top: 15%;
 }
 
 .navbar ul {
