@@ -9,7 +9,7 @@ body {
 
 body::before {
   content: "";
-  position: fixed;
+  position: absolute;
   background: #040404 url("../img/Desain\ tanpa\ judul.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
